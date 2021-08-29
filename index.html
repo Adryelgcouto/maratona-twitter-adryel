@@ -14,70 +14,109 @@
 </head>
 
 <body>
-    <header>
-        <figure>
+    <header class="Header">
+        <figure class="Header__img"> 
             <img src="./assets/img/bird 1.svg" alt="Logo">
             <figcaption hidden>Logo TTBirt</figcaption>
         </figure>
         <!--Navegação-->
-        <nav>
+        <nav class="header__Menunavegacao">
             <ul>
-                <li>
-                    <img src="./assets/img/Home.png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Home.png" alt="Pagina Incial">
                     <a href="#">Pagina Inicial</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Hashtag.png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Hashtag.png" alt="Explorar">
                     <a href="#">Explorar</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Notification.png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Notification.png" alt="Notificação">
                     <a href="#">Notificação</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Group.png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Group.png" alt="Mensagens">
                     <a href="#">Mensagens</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Group (1).png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Group (1).png" alt="Intens Salvos">
                     <a href="#">Itens Salvos</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Group (2).png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Group (2).png" alt="Listas">
                     <a href="#">Listas</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/ProfilePic.png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/ProfilePic.png" alt="Perfil">
                     <a href="#">Perfil</a>
                 </li>
             </ul>
             <ul>
-                <li>
-                    <img src="./assets/img/Group (3).png" alt="">
+                <li class="header__menuLinks">
+                    <img src="./assets/img/Group (3).png" alt="Mais">
                     <a href="#">Mais</a>
                 </li>
             </ul>
         </nav>
     </header>
     <!--Conteudo Principal-->
-    <main>
-        <h3>Home</h3>
-        <form action="#">
+    <main class="conteudoPrincipal">
+        <h2 class= "conteudoPrincipal__titulo">Home</h2>
+        <form action="#" class="conteudoPrincipal__form">
             <textarea name="Twittar" placeholder="O que está pensando?"></textarea>
-            <button></button>
+            <button type="button" >Enviar</button>
         </form>
+        <!--Feed DE noticas-->
+        <section class="conteudoPrincipal__feed">
+            <ul class="conteudoPrincipal__feedLista">
+                <li class="conteudoPrincipal__tweet">
+                    <!--Foto do Usuario-->
+                    <img src="./assets/img/ProfilePic.png" alt="">
+                    <div class="tweet_conteudo">
+                        <!--Caixa de Informação do Usuario-->
+                        <h2>Adryel</h2>
+                        <span>@adryelgcouto 14s</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam rem maiores provident, non iure. Beatae, quia? Obcaecati voluptas eveniet nobis fuga a, ex distinctio et eos porro voluptate modi.</p>
+
+                    </div>
+                </li>
+                <li class="conteudoPrincipal__tweet">
+                    <!--Foto do Usuario-->
+                    <img src="./assets/img/ProfilePic.png" alt="">
+                    <div class="tweet_conteudo">  
+                        <!--Caixa de Informação do Usuario-->
+                        <h2>Adryel</h2>
+                        <span>@adryelgcouto 14s</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam rem maiores provident, non iure. Beatae, quia? Obcaecati voluptas eveniet nobis fuga a, ex distinctio et eos porro voluptate modi.</p>
+
+                    </div>
+                </li>
+                <li class="conteudoPrincipal__tweet">
+                    <!--Foto do Usuario-->
+                    <img src="./assets/img/ProfilePic.png" alt="">
+                    <div class="tweet_conteudo">
+                        <!--Caixa de Informação do Usuario-->
+                        <h2>Adryel</h2>
+                        <span>@adryelgcouto 14s</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam rem maiores provident, non iure. Beatae, quia? Obcaecati voluptas eveniet nobis fuga a, ex distinctio et eos porro voluptate modi.</p>
+
+                    </div>
+                </li>
+            </ul>
+
+        </section>
     </main>
 </body>
 
